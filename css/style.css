@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 15px #4f4f4f;
+}
+
+#title {
+  margin: 1rem;
+  line-height: 40px;
+}
+
+#title span {
+  color: #8a2be2;
+}
+
+li {
+  display: inline-block;
+  margin: 2rem;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+li a:hover {
+  font-size: 18px;
+  padding-bottom: 0.5rem;
+  opacity: 0.9;
+  border-bottom: 1px solid #8a2be2;
+}
+
+.presentation {
+  margin: 1.5rem;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.presentation span {
+  color: #8a2be2;
+}
+
+#slogan {
+  width: 100%;
+  font-size: 30px;
+}
+
+img {
+  width: 60vw;
+}
+
+#locations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gyms {
+  margin: 3rem;
+}
+
+.gym-content {
+  box-shadow: 0 1px 5px gray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gyms img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.gym-descriptions {
+  margin: 0.8rem;
+  float: left;
+}
+
+.gyms a {
+  margin: 0.8rem;
+  float: left;
+}
+
+.gyms button {
+  margin: 1.5rem;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  background-color: #8a2be2;
+  color: #fff;
+  cursor: pointer;
+}
+
+#plans {
+  margin: 3rem;
+  padding: 12vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0 1px 10px #4f4f4f;
+  border-radius: 8px;
+}
+
+.plan-title {
+  margin: 1.5rem;
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: center;
+}
