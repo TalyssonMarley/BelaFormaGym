@@ -94,11 +94,12 @@ img {
 }
 
 .gyms a {
+  color: blue;
   margin: 0.8rem;
   float: left;
 }
 
-.gyms button {
+.viewplan-btn {
   margin: 1.5rem;
   padding: 8px;
   font-size: 15px;
@@ -111,19 +112,33 @@ img {
 }
 
 #plans {
-  margin: 3rem;
+  margin: 1rem;
   padding: 12vh;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  box-shadow: 0 1px 10px #4f4f4f;
   border-radius: 8px;
 }
 
 .plan-title {
   margin: 1.5rem;
-  font-size: 20px;
+  font-size: 18px;
   border-bottom: 2px solid #000;
   display: flex;
   justify-content: center;
+}
+
+#masterPlan,
+#plusPlan,
+#belaformaPlan {
+  margin: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 1px 10px #4f4f4f;
+  border-radius: 8px;
+}
+
+.benefits h4 {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+  font-size: 17px;
 }
