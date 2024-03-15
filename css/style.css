@@ -6,6 +6,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -18,7 +22,8 @@ header {
   line-height: 40px;
 }
 
-#title span {
+#title span,
+#logo span {
   color: #8a2be2;
 }
 
@@ -71,7 +76,7 @@ img {
 }
 
 .gyms {
-  margin: 3rem;
+  margin: 5rem;
 }
 
 .gym-content {
@@ -121,7 +126,7 @@ img {
 }
 
 .plan-title {
-  margin: 1.5rem;
+  margin: 0.5rem;
   font-size: 18px;
   border-bottom: 2px solid #000;
   display: flex;
@@ -141,4 +146,71 @@ img {
   padding: 20px;
   border-bottom: 1px solid #000;
   font-size: 17px;
+}
+
+.check-list {
+  margin: 15px;
+  color: green;
+  font-size: 25px;
+}
+
+.not-checked {
+  color: red;
+}
+
+.price {
+  margin-top: 1rem;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price span {
+  font-size: 25px;
+  font-weight: 500 bolder;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-btn {
+  margin-top: 1rem;
+  padding: 8px;
+  width: 250px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  background-color: #8a2be2;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e7edf1;
+  overflow: hidden;
+}
+
+#logo {
+  margin: 1rem;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#social-medias {
+  margin: 1rem;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-medias a {
+  padding: 1rem;
 }
