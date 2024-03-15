@@ -118,7 +118,7 @@ img {
 
 #plans {
   margin: 1rem;
-  padding: 12vh;
+  padding: 5vh;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -213,4 +213,8 @@ footer {
 
 #social-medias a {
   padding: 1rem;
+}
+
+#social-medias img {
+  width: 35px;
 }
