@@ -1,14 +1,19 @@
-const viewPlansBtn = document.querySelectorAll('.viewplan-btn')[0];
-const registrationBtn = document.querySelectorAll('.registration-btn')[0];
+const viewPlansBtn = document.querySelectorAll('.viewplan-btn');
+const registrationBtn = document.querySelectorAll('.registration-btn');
 
-viewPlansBtn.addEventListener('click', showSectionPlan);
-registrationBtn.addEventListener('click', showRegister);
+viewPlansBtn.forEach(planViewer => {
+    planViewer.addEventListener('click', showSectionPlan);
+});
+
+registrationBtn.forEach(registerViewer => {
+    registerViewer.addEventListener('click', showRegister);
+});
 
 function showSectionPlan() {
+    console.log('')
     window.scrollTo(0, 1175)
 };
 
 function showRegister() {
-    console.log('certo')
     window.location.href = "https://www.youtube.com/shorts/b6fZzvx6osw";
 };
