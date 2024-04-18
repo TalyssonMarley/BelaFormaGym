@@ -10,7 +10,6 @@ registrationBtn.forEach(registerViewer => {
 });
 
 function showSectionPlan() {
-    console.log('')
     window.scrollTo(0, 1175)
 };
 
