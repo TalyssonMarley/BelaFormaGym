@@ -27,6 +27,10 @@ header {
   color: #8a2be2;
 }
 
+#menu-btn-container {
+  display: none;
+}
+
 li {
   display: inline-block;
   margin: 2rem;
@@ -216,4 +220,24 @@ footer {
 
 #social-medias img {
   width: 35px;
+}
+
+@media (max-width: 760px) {
+
+  #menu-btn-container{
+    margin: 30px 30px;
+    display: block;
+    cursor: pointer;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
 }
